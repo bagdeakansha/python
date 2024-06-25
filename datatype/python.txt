@@ -1,0 +1,17 @@
+list properties----
+# iterable
+# sequential
+# order is fixed
+# indexing +ve -ve 
+# slicing
+# mutable
+-------------------------
+inbuilt method----
+append()-- add values from last
+extend()-- merge two list
+pop()-remove value from last
+remove()-remove value
+insert(index no,obj)-insert value through index no
+sort()-arrange value in ascending order
+sort(reverse=True)- arrange value in descending order
+reverse()-reverse value

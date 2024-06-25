@@ -1,0 +1,141 @@
+# ---------------------integer value---------------
+# x=10
+# y=20
+# z1=x+y
+# print(z1)
+# print(type(z1))
+# z2=x-y
+# print(z2)
+# print(type(z2))
+# z3=x/y
+# print(z3)
+# print(type(z3))
+# print(id(z3))
+
+# ------------------float value---------------------
+# x=10.0
+# y=20.0
+# z1=x+y
+# print(z1)
+# print(type(z1))
+# z2=x-y
+# print(z2)
+# print(type(z2))
+# z3=x/y
+
+# print(z3)
+# print(type(z3))
+# print(id(z3))
+# -----------------complex value-----------------
+# x=10+20j
+# y=20+10j
+# z1=x+y
+# print(z1)
+# print(type(z1))
+# z2=x-y
+# print(z2)
+# print(type(z2))
+# z3=x/y
+# print(z3)
+# print(type(z3))
+# print(id(z3))
+#----------------------------------
+# === is used for compare value as well as check datatype
+# a=(1,2,3,4,5,6)
+# print(a[1])
+# print(a[-1])
+
+# my_name="Aakansha"
+# print(my_name.index("a",(my_name.index("a")+1)))
+# # print(my_name.index("A",2))
+# # print(my_name.index("A",2,5))
+# -----------------------------------------
+# my_list=["Akansha",22,"Bhopal","Btech"]
+# print(my_list[1])
+# print(my_list.index("Bhopal"))
+
+# a="AKANSHA"
+# x=a[-1:4:-1]
+# x=a[::-1] #reverse
+# print(x)
+
+# my_subj=["PYTHON","DJANGO","JS","REACT","C++"]
+# x=my_subj[2:15:2]
+# print(x)
+
+#predefined function--------
+# my_str="akansha"
+# print(len(my_str))
+# print(max(my_str))
+# print(min(my_str))
+# print(type(my_str))
+# print(str(my_str))
+# print(id(my_str))
+# # print ord((my_str))
+# # print(chr(my_str))
+
+# inbuilt method---------------------
+# a="i am Akansha...."
+# print(a.upper())
+# print(a.lower())
+# print(a.capitalize())
+# print(a.center(40,'-'))
+# print(a.count('a'))
+# str=['python','is','a','programming','language']
+# print('-'.join(str))
+#-----------------------------
+
+# a="abc"
+# b="123"
+# print(a.join(b))
+# print('!'.join(b))
+# str="My name is Akansha Bagde"
+# print(str.split(" "))
+# print(str.split(" ",1))
+
+#list-------------------------------
+# my_list=[10,20,'Akansha',10,'Cybrom','Bhopal']
+# print(len(my_list))
+# print(my_list[2])
+# my_list[0]="Akku"
+# print(my_list)
+# print(my_list[2:4]) #slice
+# print(my_list.index('Bhopal'))
+# print(my_list[-1])
+
+#------------------------------
+#inbuild function---
+# a=[12,58,63,23,45]
+# print(sum(a))
+# print(max(a))
+# print(min(a))
+# print(len(a))
+#------------------------------
+#inbuild method---
+a=[10,54,26,28,36,45]
+b=[20,59,56,25,78,20]
+# a.append('50')#add values from last
+# print(a)
+# a.append("Akansha")
+# print(a)
+# a.extend(b) #merge two list
+# print(a)
+# a.pop() #remove value from last
+# print(a)
+# a.remove(28)#remove value
+# print(a)
+# a.insert(4,20) #insert value through index
+# print(a)
+a.sort(reverse=True) #arrange value
+print(a)
+# a.reverse()
+# print(a)
+
+
+
+
+
+
+
+
+
