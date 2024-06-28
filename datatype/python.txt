@@ -5,7 +5,7 @@ list properties----
 # indexing +ve -ve 
 # slicing
 # mutable
--------------------------
+---------------------------
 inbuilt method----
 append()-- add values from last
 extend()-- merge two list
@@ -15,3 +15,19 @@ insert(index no,obj)-insert value through index no
 sort()-arrange value in ascending order
 sort(reverse=True)- arrange value in descending order
 reverse()-reverse value
+--------------------------------------------------------------------------------
+tuple poperties----
+#immutable
+#we can't add or change data in tuple
+-------------------------------------------------
+inbuilt method----
+count()
+index()
+-----------------------------------
+#dictonary-----
+mutable
+-------------------
+inbuilt method---
+pop('key')
+popitem()
+
