@@ -30,4 +30,30 @@ mutable
 inbuilt method---
 pop('key')
 popitem()
+del my_dict('key')
+clear()
+del my_dict //delete dictonary
+------------------------------------
+set----
+# unordered
+# no indexing
+# no slicing
+# collection of unique data
+# duplicate not allowed
+# mutable
+-------------------------
+inbuilt function---
+len()
+max()
+min()
+set()
+------------------------------
+method-----
+add() //add single value
+update() //add another list
+remove() //remove element when data is present
+discard() // its also used for same but when data is not present then it will dont show error
+union()
+intersection()
+
 

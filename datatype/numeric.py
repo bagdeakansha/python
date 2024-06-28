@@ -163,39 +163,65 @@
 # dictionary-------
 
 
-my_dict=dict()
-print(my_dict)
-print(type(my_dict))
-print(id(my_dict))
-my_dict['Name']="Akansha"
-print(my_dict)
-my_dict['Age']="22"
-print(my_dict)
-my_dict['Name']="Akku"
-print(my_dict)
-my_dict['city']="Bhopal"
-print(my_dict)
+# my_dict=dict()
+# print(my_dict)
+# print(type(my_dict))
+# print(id(my_dict))
+# my_dict['Name']="Akansha"
+# print(my_dict)
+# my_dict['Age']="22"
+# print(my_dict)
+# my_dict['Name']="Akku"
+# print(my_dict)
+# my_dict['city']="Bhopal"
+# print(my_dict)
 
 # del my_dict['Name']
 # print(my_dict)
 # print(my_dict['Name'])
 # print(my_dict.clear())
-print(len(my_dict))
-print(max(my_dict))
-print(min(my_dict))
-print(my_dict.keys())
-print(my_dict.values())
-print(my_dict.items())
-print(my_dict.get('educ','12th'))#it gives value of key
-print(my_dict.popitem())
-print(my_dict)
-my_dict.pop('Name')
-print(my_dict)
+# print(len(my_dict))
+# print(max(my_dict))
+# print(min(my_dict))
+# print(my_dict.keys())
+# print(my_dict.values())
+# print(my_dict.items())
+# print(my_dict.get('educ','12th'))#it gives value of key
+# print(my_dict.popitem())
+# print(my_dict)
+# my_dict.pop('Name')
+# print(my_dict)
+# del my_dict
+# print(my_dict)
 
 
 
 # my_list=list()
 # print(my_list)
+
+#set--------------------------------
+# my_set={10,20,50,10,56}
+# print(my_set)
+# print(max(my_set))
+# print(min(my_set))
+# print(len(my_set))
+# print(set(my_set))
+#method----
+# my_set.add(25)
+# print(my_set)
+# my_list=[12,52,32,85,96]
+# my_set.update(my_list)
+# print(my_set)
+# print(len(my_set))
+# my_set.remove(52)
+# print(my_set)
+# my_set.discard(5)
+# print(my_set)
+s1={10,20,30,40,50}
+s2={10,20,32,40,55}
+print(s1.union(s2))
+print(s1.intersection(s2))
+
 
 
 
